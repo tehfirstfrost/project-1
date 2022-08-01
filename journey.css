@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.navbar{
+    background-color:  rgb(50, 89, 121);;
+}
