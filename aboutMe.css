@@ -18,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .title h1{
@@ -26,7 +27,7 @@ body{
     font-size: 400%;
     font-weight: 900;
     text-transform: uppercase;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .title p{
@@ -46,6 +47,11 @@ body{
 
 .content p{
     padding-bottom: 2rem;
+}
+
+.carousel{
+    padding-top: 4rem;
+    padding-bottom: 4em;
 }
 main img{
     height: 30rem;
@@ -83,6 +89,26 @@ main img{
     font-weight: bold;
     opacity: 1;
 }
+
+footer{
+    padding-top: 4em;
+    display: flex !important;
+    justify-content: space-evenly;
+    background-color: rgb(50, 89, 121);
+
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+footer ul a:hover{
+    color: rgb(50, 89, 121);
+}
+
 
 
 
