@@ -13,3 +13,77 @@ body{
 .navbar{
     background-color:  rgb(50, 89, 121);;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    color: rgb(15, 19, 22);
+    font-family: Caveat, sans-serif;
+    font-size: 400%;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+.title p{
+    line-height: 0;
+    font-family: Caveat, sans-serif;
+    font-size: 150%;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.content h2{
+    padding-top: 3rem;
+}
+
+.content p{
+    padding-bottom: 2rem;
+}
+main img{
+    height: 30rem;
+    width: 30rem;
+}
+
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.interests figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.hobbies figcaption{
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+
+
