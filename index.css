@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
+
 body{
     margin:0;
     padding:0;
     font-size: 22px;
     line-height: 26px;
     text-align: justify;
+    background-color: rgb(160, 187, 240) !important;
 }
 
 .banner{
     background-image: url("./banner1.jpg");
     padding-top:4em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     background-size: cover;
     overflow: hidden;
     width: 100% !important;
@@ -30,5 +32,86 @@ body{
 }
 
 .navbar{
-    background-color:  rgb(50, 89, 121);;
+    background-color:  rgb(50, 89, 121);
+}
+
+.name{
+    font-family: Caveat, sans-serif;
+    font-size: 500%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em; 
+    margin-top:2em;
+}
+
+.intro{
+    padding-right: 4em;
+}
+figure{
+    width:20%;
+    padding-left:2em;
+
+}
+
+figcaption{
+    font-size: 80%;
+}
+
+.me{
+    width: 70%
+}
+
+footer{
+    padding-top: 4em;
+    display: flex !important;
+    justify-content: space-evenly;
+    background-color: rgb(50, 89, 121);
+
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+footer ul a:hover{
+    color: rgb(50, 89, 121);
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .intro{
+        margin-bottom: 3em;
+        padding-right:0;
+    }
+
+    figure{
+        width: 40%
+    }
+
+    .me{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .content{
+        padding:6em;
+    }
+
+    .name{
+        font-size: 300%;
+    }
 }
