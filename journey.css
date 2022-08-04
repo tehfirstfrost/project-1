@@ -14,8 +14,61 @@ body{
     background-color:  rgb(50, 89, 121);;
 }
 
-main{
+img{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease .25s;
+}
+
+.sabers{
+    top:56px;
+    left:0;
+}
+
+.chess{
+    top:56px;
+    right:0;
+}
+
+.retro{
+    bottom:164px;
+    left:0;
+}
+
+.nes{
+    bottom:164px;
+    right:0;
+}
+
+img:hover{
+    height: 200px;
+    width: 200px;
+}
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding:3rem;
+}
+
+section h1{
+    text-align: center;
+}
+
+section{
+    width: 75%;
+    flex: 1 1 auto;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: Caveat, sans-serif;
+}
+section div li{
+    list-style-type:none;
 }
 
 footer{
