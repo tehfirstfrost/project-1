@@ -13,3 +13,26 @@ body{
 .navbar{
     background-color:  rgb(50, 89, 121);;
 }
+
+main{
+    padding:3rem;
+}
+
+footer{
+    padding-top: 4em;
+    display: flex !important;
+    justify-content: space-evenly;
+    background-color: rgb(50, 89, 121);
+
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+footer ul a:hover{
+    color: rgb(50, 89, 121);
+}
